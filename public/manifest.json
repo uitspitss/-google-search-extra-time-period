@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "google search extra time period",
+  "description": "add extra time periods in google search",
+  "version": "0.1.2",
+  "icons": {
+    "128": "logo.png"
+  },
+  "browser_action": {
+    "default_icon": "logo.png",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.com/search*"],
+      "js": ["content_script.js"]
+    }
+  ],
+  "permissions": ["storage"]
+}

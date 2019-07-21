@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "lib": ["es2018", "dom"],
+    "moduleResolution": "node",
+    "strict": true,
+    "noUnusedParameters": true,
+    "esModuleInterop": true,
+    "rootDir": "src",
+    "outDir": "dist/js"
+  }
+}
