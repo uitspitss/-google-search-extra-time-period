@@ -41,7 +41,7 @@ const insertTimePeriods = (timePeriods: TimePeriods) => {
       a.classList.add('q', 'qs');
       a.setAttribute(
         'href',
-        encodeURI(`${searchUrl}&tbs=cdr:1,cd_min:${start},cd_max:${today}`),
+        `${searchUrl}&tbs=cdr:1,cd_min:${start},cd_max:${today}`,
       );
       li.appendChild(a);
     }
